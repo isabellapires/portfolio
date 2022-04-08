@@ -2,16 +2,18 @@
     height: 100vh;
 
     .sections{
-       width: 100%; 
-       height: calc(100vh - 70px);  // como o topbar vai ficar fixo, calcula-se 100% da tela menos a altura do topbar. 
-       background-color: lightpink;
-       position: relative;
-       top: 70px;
-
+        width: 100%; 
+        height: calc(100vh - 70px);  // como o topbar vai ficar fixo, calcula-se 100% da tela menos a altura do topbar. 
+        background-color: lightpink;
+        position: relative;
+        top: 70px;
+        scroll-snap-type: y mandatory; // Sem meio termo no momento da rolagem.
+        scrollbar-width: none;
        // Definindo para todos os componentes da sections
-       > *{
-           width: 100vw;
-           height: calc(100vh - 70px); 
-       }
+        > *{
+            width: 100vw;
+            height: calc(100vh - 70px); 
+            scroll-snap-align: start; // Quando eu rolo a barra, vai para o início da seção
+        }
     }
 }
