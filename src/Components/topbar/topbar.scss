@@ -1,0 +1,8 @@
+.topbar{
+    background-color: rgb(17, 14, 231);
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 1; // Profundidade do componente. Quanto maior, mais na frente fica. Neste caso, o 1 é maior que os demais que são auto.
+}
