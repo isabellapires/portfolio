@@ -1,5 +1,7 @@
+@import "../../global.scss"
+
 .topbar{
-    background-color: rgb(17, 14, 231);
+    background-color: $mainColor;
     width: 100%;
     height: 70px;
     position: fixed;

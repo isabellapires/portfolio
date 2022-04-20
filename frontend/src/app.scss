@@ -8,7 +8,10 @@
         position: relative;
         top: 70px;
         scroll-snap-type: y mandatory; // Sem meio termo no momento da rolagem.
-        scrollbar-width: none;
+        scrollbar-width: none; // Para firefox
+        &::-webkit-scrollbar{
+            display: none;      //Para chrome
+        }
        // Definindo para todos os componentes da sections
         > *{
             width: 100vw;
