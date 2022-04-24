@@ -7,10 +7,11 @@
         background-color: lightpink;
         position: relative;
         top: 70px;
+        scroll-behavior: smooth;
         scroll-snap-type: y mandatory; // Sem meio termo no momento da rolagem.
         scrollbar-width: none; // Para firefox
         &::-webkit-scrollbar{
-            display: none;      //Para chrome
+            display: none;      //Para chrome e os outros navegadores.
         }
        // Definindo para todos os componentes da sections
         > *{
