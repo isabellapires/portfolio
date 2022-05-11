@@ -6,4 +6,12 @@ import Works from "./works/Works"
 import Testimonials from "./testimonials/Testimonials"
 import Contact from "./contact/Contact"
 
-export {HomePageSection,Topbar,Intro,Portfolio,Works,Testimonials,Contact}
+export {
+    HomePageSection,
+    Topbar,
+    Intro,
+    Portfolio,
+    Works,
+    Testimonials,
+    Contact,
+}

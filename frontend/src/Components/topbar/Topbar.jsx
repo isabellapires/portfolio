@@ -1,5 +1,4 @@
 import "./topbar.scss"
-import { Button } from "@material-ui/core"
 
 export default function Topbar() {
     return (
@@ -7,11 +6,10 @@ export default function Topbar() {
             <div className="wrapper">
                 <div className="left">
                     <a href="#intro" className="logo">
-                        Isabella Pires
+                        isabella.
                     </a>
                     <div className="itemContainer">
-                        <Button />
-                        <span>32 99818 9261</span>
+                        <span>(32) 99818 9261</span>
                     </div>
                 </div>
                 <h1>Hello</h1>
